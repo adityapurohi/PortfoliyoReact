@@ -12,12 +12,16 @@ import { Routes, Route } from "react-router-dom";
 import Cards from "./Components/Cards"
 import Contact from "./Components/Contact"
 import ProjectDetails from "./Components/ProjectDetails"
+
  
 
 function App() {
+  
 
   return (
     <>
+   
+   
     <Nav/>
    
      <Routes>
@@ -29,6 +33,7 @@ function App() {
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
       <Footer></Footer>
+    
     
     </>
   )

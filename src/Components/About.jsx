@@ -70,9 +70,10 @@ function About() {
           <h2 className="text-4xl sm:text-5xl font-bold mb-6">Let me help you bring it to life</h2>
           <Buttonn
             title="Contact Now"
-            color="bg-white text-blue-900"
-            hoverColor="hover:bg-gray-200"
+            color=" bg-white "
+            hoverColor="hover:bg-gray-200 "
             to="/contact"
+            textcolor="text-blue-900"
           />
         </div>
       </section>

@@ -40,12 +40,12 @@ function Footer() {
           <h3 className="text-xl font-semibold mb-4 text-yellow-300">Follow Me</h3>
           <ul className="space-y-3">
             <li>
-              <a href="#" className="flex items-center gap-2 text-gray-300 hover:text-yellow-400 transition-all">
+              <a href="https://github.com/adityapurohi" className="flex items-center gap-2 text-gray-300 hover:text-yellow-400 transition-all">
                 <FaGithub /> GitHub
               </a>
             </li>
             <li>
-              <a href="#" className="flex items-center gap-2 text-gray-300 hover:text-yellow-400 transition-all">
+              <a href=" https://www.linkedin.com/in/aditya-narayan-purohit-bikaner/" className="flex items-center gap-2 text-gray-300 hover:text-yellow-400 transition-all">
                 <FaLinkedin /> LinkedIn
               </a>
             </li>

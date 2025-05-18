@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 
-function Buttonn({title ,color,hoverColor,to,download}) {
+function Buttonn({title ,color,hoverColor,to,download,textcolor }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -14,10 +14,17 @@ function Buttonn({title ,color,hoverColor,to,download}) {
       navigate(to);                                     // agar download nahi hai, to page navigate karo
     }
   };
-
+const colortext=()=>{
+if(!textcolor){
+  textcolor==='text-white';
+}
+else if(textcolor){
+  textcolor===textcolor;
+}
+};
   return (
     <>
-    <button className={`${color} text-white px-4 py-2 rounded-lg ${hoverColor}` } onClick={handleClick}>
+    <button className={`${color} ${textcolor} px-4 py-2 rounded-lg ${hoverColor}` } onClick={handleClick}>
         {title}
     </button>
     </>
