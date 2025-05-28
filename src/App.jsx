@@ -12,6 +12,7 @@ import { Routes, Route } from "react-router-dom";
 import Cards from "./Components/Cards"
 import Contact from "./Components/Contact"
 import ProjectDetails from "./Components/ProjectDetails"
+import Scrolltop from "./Components/Scrolltop"
 
  
 
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <>
-   
+   <Scrolltop />
    
     <Nav/>
    

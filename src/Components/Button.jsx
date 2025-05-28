@@ -24,7 +24,7 @@ else if(textcolor){
 };
   return (
     <>
-    <button className={`${color} ${textcolor} px-4 py-2 rounded-lg ${hoverColor}` } onClick={handleClick}>
+    <button className={`${color} ${textcolor} px-1 py-1 md:px-4 md:py-2 text-sm md:text-xl rounded-lg  ${hoverColor}` } onClick={handleClick}>
         {title}
     </button>
     </>

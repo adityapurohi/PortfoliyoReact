@@ -67,18 +67,18 @@ export default function Home() {
 
   return (
     <>
-      <div className='mt-5 p-1 max-w-screen-xl mx-auto relative flex justify-between bg-white/10'>
+      <div className='mt-5 p-1 max-w-screen-xl  mx-auto relative flex justify-between bg-white/10'>
         <div className="mr-5 mt-5 flex flex-col">
-          <div className="font-roboto-mono text-3xl text-[#000080] p-1 flex ">hi!! Aditya Purohit <div className='emoji'>👋</div></div>
+          <div className="font-roboto-mono text-sm md:text-3xl  text-[#000080] p-1 flex ">hi!! Aditya Purohit <div className='emoji'>👋</div></div>
           <div className="mt-[40px] p-4">
-            <div className="font-roboto-mono text-6xl mb-5">
+            <div className="font-roboto-mono text-sm md:text-6xl mb-5">
               <span className="text-red-500">I am </span>
-              <span className={`text-[#4e45d5] text-4xl p-4 bg-white rounded-lg shadow-md transition-opacity duration-1000 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+              <span className={`text-[#4e45d5] text-sm md:text-4xl p-4 bg-white rounded-lg shadow-md transition-opacity duration-1000 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
                 {displayedText}
               </span>
             </div>
             <div className='mt-7 p-1'>
-              <p className='text-xl font-roboto-mono text-black mt-5 p-1'>
+              <p className='text-sm md:text-xl font-roboto-mono text-black mt-5 p-1'>
                 I'm a Software developer and here is my portfolio website. Here you'll learn <br />
                 about my journey as a software developer.
               </p>
@@ -90,11 +90,11 @@ export default function Home() {
         </div>
 
         {/* White padding and animation using Tailwind CSS */}
-        <div className="p-4 bg-white rounded-lg shadow-md animate-scale">
+        <div className="p-4 bg-white md:rounded-lg shadow-md animate-scale">
           <img
             src="/userimg.jpg"
             alt=""
-            className='w-[400px] h-[400px] transition-all duration-300 ease-in-out'
+            className='md:w-[400px] md:h-[400px] w-[200px] h-[200px] transition-all duration-300 ease-in-out'
           />
         </div>
       </div>
