@@ -67,7 +67,7 @@ export default function Home() {
 
   return (
     <>
-      <div className='mt-5 p-1 max-w-screen-xl  mx-auto relative flex justify-between bg-white/10'>
+      <div className='mt-5 p-1 md:max-w-screen-xl w-full mx-auto relative flex justify-between bg-white/10'>
         <div className="mr-5 mt-5 flex flex-col">
           <div className="font-roboto-mono text-sm md:text-3xl  text-[#000080] p-1 flex ">hi!! Aditya Purohit <div className='emoji'>👋</div></div>
           <div className="mt-[40px] p-4">
@@ -90,11 +90,11 @@ export default function Home() {
         </div>
 
         {/* White padding and animation using Tailwind CSS */}
-        <div className="p-4 bg-white md:rounded-lg shadow-md animate-scale">
+        <div className="md:p-4  bg-white   md:rounded-lg md:shadow-md animate-scale">
           <img
             src="/userimg.jpg"
             alt=""
-            className='md:w-[400px] md:h-[400px] w-[200px] h-[200px] transition-all duration-300 ease-in-out'
+            className='md:w-[400px] md:h-[400px] w-[150px] h-[150px] mt-15 transition-all duration-300 ease-in-out'
           />
         </div>
       </div>

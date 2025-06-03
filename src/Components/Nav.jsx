@@ -29,7 +29,7 @@ function Nav() {
       
       <div className='flex items-center   mb-4 md:mb-0 '>
         <img src="/logo.jpg" alt="" className='w-10 h-15  pt-4 ' />
-        <span className='items-center hidden sm:block text-black   text-sm md:text-lg lg:text-xl mt-[13px] Nav nav-item ml-[-0.7em]'>
+        <span className='items-center  text-black   text-sm md:text-lg lg:text-xl mt-[13px] Nav nav-item ml-[-0.7em]'>
           ditya Purohit
         </span>
       </div>

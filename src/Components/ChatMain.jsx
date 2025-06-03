@@ -4,7 +4,7 @@ function ChatMain() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-white to-indigo-100 flex flex-col items-center py-16 px-6">
       <div className="w-full max-w-5xl bg-white rounded-3xl shadow-2xl p-12">
-        {/* Header */}
+       
         <header className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-indigo-700 leading-tight">
             Real-Time Chat Application
@@ -14,9 +14,8 @@ function ChatMain() {
           </p>
         </header>
 
-        {/* Content Sections */}
         <div className="space-y-16 text-gray-800">
-          {/* Introduction */}
+       
           <section>
             <h2 className="text-3xl font-semibold text-indigo-600 mb-4 border-b-2 border-indigo-300 pb-2">
               Introduction
@@ -76,7 +75,7 @@ function ChatMain() {
             </div>
           </section>
 
-          {/* Features */}
+         
           <section>
             <h2 className="text-3xl font-semibold text-indigo-600 mb-6 border-b-2 border-indigo-300 pb-2">
               Features
@@ -90,7 +89,7 @@ function ChatMain() {
             </ul>
           </section>
 
-          {/* System Architecture */}
+         
           <section>
             <h2 className="text-3xl font-semibold text-indigo-600 mb-4 border-b-2 border-indigo-300 pb-2">
               System Architecture
@@ -103,7 +102,7 @@ function ChatMain() {
             </p>
           </section>
 
-          {/* Conclusion */}
+          
           <section>
             <h2 className="text-3xl font-semibold text-indigo-600 mb-4 border-b-2 border-indigo-300 pb-2">
               Conclusion
