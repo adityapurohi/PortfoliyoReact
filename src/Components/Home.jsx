@@ -90,11 +90,11 @@ export default function Home() {
         </div>
 
         {/* White padding and animation using Tailwind CSS */}
-        <div className="md:p-4  bg-white   md:rounded-lg md:shadow-md animate-scale">
+        <div className="md:p-4  md:bg-white   md:rounded-lg md:shadow-md animate-scale">
           <img
             src="/userimg.jpg"
             alt=""
-            className='md:w-[400px] md:h-[400px] w-[150px] h-[150px] mt-15 transition-all duration-300 ease-in-out'
+            className='md:w-[400px] md:h-[400px] w-[450px] h-[150px] mt-15 transition-all duration-300 ease-in-out'
           />
         </div>
       </div>
