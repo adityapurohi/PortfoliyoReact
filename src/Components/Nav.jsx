@@ -24,7 +24,7 @@ function Nav() {
   ];
 
   return (
-    <div className='w-full md:max-w-screen-xl mx-auto  mx-auto py-6 flex items-center gap-4 md:gap-8 justify-between bg-white/60 backdrop-blur-md shadow-sm border-b border-gray-200
+    <div className='w-full md:max-w-screen-xl mx-auto   mx-auto py-6 flex items-center gap-4 md:gap-8 justify-between bg-white/60 backdrop-blur-md shadow-sm border-b border-gray-200
        backdrop-blur-lg rounded-xl shadow-lg text-white relativ '>
       
       <div className='flex items-center mb-4 md:mb-0 '>
@@ -34,7 +34,7 @@ function Nav() {
         </span>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center gap-5 mt-5 mr-5">
+      <div className="flex  md:flex-row items-center gap-5 mt-5 mr-5">
         {navItems.map((item, index) => {
           if (!item.name) {
             return (
