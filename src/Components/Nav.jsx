@@ -27,9 +27,9 @@ function Nav() {
     <div className='w-full md:max-w-screen-xl mx-auto   mx-auto py-6 flex items-center gap-4 md:gap-8 justify-between bg-white/60 backdrop-blur-md shadow-sm border-b border-gray-200
        backdrop-blur-lg rounded-xl shadow-lg text-white relativ '>
       
-      <div className='flex items-center  mb-4 md:mb-0 '>
+      <div className='flex items-center   mb-4 md:mb-0 '>
         <img src="/logo.jpg" alt="" className='w-10 h-15  pt-4 ' />
-        <span className='item-center text-black   text-sm md:text-lg lg:text-xl mt-[13px] Nav nav-item ml-[-0.7em]'>
+        <span className='items-center hidden sm:block text-black   text-sm md:text-lg lg:text-xl mt-[13px] Nav nav-item ml-[-0.7em]'>
           ditya Purohit
         </span>
       </div>
