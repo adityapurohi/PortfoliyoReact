@@ -27,7 +27,7 @@ function Nav() {
     <div className='w-full md:max-w-screen-xl mx-auto   mx-auto py-6 flex items-center gap-4 md:gap-8 justify-between bg-white/60 backdrop-blur-md shadow-sm border-b border-gray-200
        backdrop-blur-lg rounded-xl shadow-lg text-white relativ '>
       
-      <div className='flex items-center mb-4 md:mb-0 '>
+      <div className='flex items-center  mb-4 md:mb-0 '>
         <img src="/logo.jpg" alt="" className='w-10 h-15  pt-4 ' />
         <span className='item-center text-black   text-sm md:text-lg lg:text-xl mt-[13px] Nav nav-item ml-[-0.7em]'>
           ditya Purohit
@@ -50,7 +50,7 @@ function Nav() {
               key={index}
               to={item.path}
               className={({ isActive }) =>
-                `text-lg flex items-center text-sm md:text-lg lg:text-xl gap-2 Nav nav-item ${
+                `text-lg flex items-center text-sm md:text-lg lg:text-xl md:gap-2 gap-1 Nav nav-item ${
                   isActive ? 'text-red-600  underline' : 'text-black'
                 }`
               }
